@@ -32,8 +32,9 @@ public class XMLParser {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
+		// note: /home/afterlie/Workspace/Java/ITEA/src/tasks/users.xml
 		try {
-			doc = db.parse(new File("/home/afterlie/Workspace/Java/ITEA/src/tasks/users.xml"));
+			doc = db.parse(new File("/home/after/ProjectNTU/tasksad/tasks/src/users.xml"));
 			listLogin = doc.getElementsByTagName("login");
 			listPassword = doc.getElementsByTagName("password");
 		} catch (SAXException | IOException e) {
